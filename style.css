@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.containor {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.5s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.top-banner {
+    background-color: #4fd3d4;
+
+}
+
+.banner-text {
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+}
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.compny-logo img {
+    width: 200px;
+}
+
+.nav-linkds ul {
+    justify-content: end;
+    gap: 30px;
+
+
+}
+
+
+.nav-linkds {
+    flex-basis: 730px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.sign-in {
+    padding: 11px;
+    border: 1px solid #111;
+    border-radius: 8px;
+}
+
+.sign-in:hover {
+    border: 1px solid#2294ed;
+    border-radius: 16px;
+    background-color: #183b56;
+    box-shadow: 0 0 10px black;
+}
+
+.sign-up {
+    padding: 11px;
+    border: 1px solid #111;
+    border-radius: 8px;
+}
+
+.sign-up:hover {
+    border: 1px solid#2294ed;
+    border-radius: 16px;
+    background-color: #183b56;
+    box-shadow: 0 0 10px black;
+}
+
+/* header section */
+
+.header-section {
+    padding: 50px var(--padding-inline-section);
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.header-left h1 {
+    margin-top: 21px;
+}
+
+.header-right {
+    width: 100%;
+}
+
+.started {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #2294ed;
+    color: whitesmoke;
+}
+
+.started:hover {
+    background-color: #1d69a3;
+    box-shadow: 0 0 2px black;
+}
+
+.c-header {
+    align-items: center;
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+/* .compny-logo */
+
+.logo {
+    width: 110px;
+
+}
+
+.c-img {
+
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: var(--padding-inline-section);
+}
+
+.l-box {
+    width: 60px;
+}
+
+.intel {
+    width: 80px;
+}
+
+/* big features section */
+
+.feacure-seciton {
+    background-image: url(gola.png);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.f-header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.see {
+    padding: 13px;
+    margin: 12px;
+    border: 1px solid #111;
+    border-radius: 8px;
+    color: #111;
+}
+
+.see:hover {
+    border: 1px solid #2294ed;
+    color: #2294ed;
+}
+
+.f-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.f-card {
+    padding-top: 50px;
+    max-width: 30%;
+    text-align: center;
+}
+
+/* Big Feacure Section */
+.big-feacure-seciton {
+    padding: 30px var(--padding-inline-section) 0;
+    margin: 20px;
+}
+
+.b-1 {
+    gap: 30px;
+    /* width: 100%; */
+
+}
+
+/* .f-img img {
+    width: 100%;
+} */
+
+.photo {
+    width: 100%;
+}
+
+.f-dis {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.b-2 {
+    gap: 30px;
+}
+
+.photo-2 {
+    float: right;
+    width: 100%;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: flex-start; */
+
+}
+
+.f2-dis {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.b-3 {
+    gap: 30px;
+}
+
+.photo-3 {
+    float: right;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.f3-dis {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.h-3 {
+    padding-top: 10px;
+}
+
+/* Example Section */
+
+.text {
+    text-align: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.example-area {
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.example-card {
+    width: 23%;
+    padding-top: 10px;
+    /* gap: 10px; */
+    position: relative;
+    height: 300px;
+    /* box-shadow: 0 0 10px black; */
+    border-radius: 10px;
+    background-color: #111;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8)), url(asset\ 36.jpeg);
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    left: 20px;
+
+    /* transition: 0.5s ease-in-out ; */
+}
+
+.example-card:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.i-37 {
+    background-color: #111;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8)), url(asset\ 37.jpeg);
+}
+
+.i-38 {
+    background-color: #111;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8)), url(asset\ 38.jpeg);
+}
+
+.i-39 {
+    background-color: #111;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8)), url(asset\ 39.jpeg);
+}
+
+/* CTA section */
+
+.c-section {
+    /* height: 350px; */
+    margin-top: 40px;
+    /* padding-top: 40px; */
+    color: white;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+.c-text {
+    text-align: center;
+}
+
+.c-left {
+    /* text-align: center; */
+    padding-top: 40px;
+    gap: 50px;
+}
+
+.button {
+    width: 140px;
+    color: white;
+    border: 1px solid black;
+    height: 38px;
+    margin-top: 40px;
+    background-color: #2294ed;
+    padding-top: 7px;
+    border-radius: 7px;
+
+}
+
+.button:hover {
+    background-color: #577592;
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+
+.cta-section {
+    background-color: #183b56;
+    padding: 12px var(--padding-inline-section) 80px;
+    margin-top: 40px;
+
+}
+
+.c-section p {
+    color: white;
+    margin-top: 20px;
+}
+
+/* footer Section */
+
+footer {
+    padding-block: 80px;
+    background-color: #e0eaf5;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.f-con {
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: #c2d7de; */
+    /* margin: 10px; */
+
+}
+
+.s-b {
+    justify-content: space-between;
+    height: 300px;
+
+}
+
+/* Sub-Footer */
+
+.subfooter {
+    background-color: #b9d5f4;
+    color: white;
+    padding: var(--padding-inline-section);
+
+}
+
+.hover-link {
+    gap: 20px;
+}
+
+.sub-foot {
+    /* flex-direction: row;
+    row-gap: 20px; */
+
+    gap: 30px;
+    justify-content: center;
+}
+
+.sub-a {
+    color: rgb(29, 29, 29);
+}
+
+.sub-a:hover {
+    color: #2294ed;
+}
+
+.sub-a-youtube {
+    color: rgb(29, 29, 29);
+}
+
+.sub-a-youtube:hover {
+    color: red;
+}
